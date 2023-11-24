@@ -16,17 +16,6 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="relative mt-16">
-        <Image
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-          className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-        />
-      </div>
-
       <div className="mt-16 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <a href="#" className="group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className="mb-2 text-xl font-semibold">Subscribe</h2>
